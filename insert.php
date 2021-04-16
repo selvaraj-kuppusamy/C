@@ -41,7 +41,7 @@ $query = "INSERT INTO student_mark (ROLLNO,NAME,C,DP,AP,CF,CE)VALUES ('$ROLLNO',
 echo $query;
 $conn->query($query);
 $conn->close();
-echo "Connected Successfully"
+echo "Connected Successfully";
 ?>
 </body>
 </html>
